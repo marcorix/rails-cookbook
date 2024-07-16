@@ -19,15 +19,20 @@
 
 # STEP 4 - Models Validations
 - A recipe must have a unique name and an overview.
+- The rating of a recipe must be a value between 0 and 5
 - A category must have a unique name.
 - A bookmark must be linked to a recipe and a category, and the [recipe, category] pairings should be unique.
 - The comment of a bookmark cannot be shorter than 6 characters.
 
 # STEP 5 - Models Associations
 - A category has many bookmarks
-- A category has many recipies through bookmarks
+- A category has many recipes through bookmarks
 - A recipe has many bookmarks
 - A bookmark belongs to a recipe
 - A bookmark belongs to a category
 - When you delete a category, you should delete all associated bookmarks
-  (but not the recipies as they can be referenced in other categories).
+  (but not the recipes as they can be referenced in other categories).
+
+# STEP 6 - Seed file
+- Create at least 4 recipes in the seed.rb file
+- Run the seed file to populate the DB
