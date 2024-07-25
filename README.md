@@ -43,4 +43,9 @@
 - Create a new controller using the terminal
 
 # STEP 8 - Views for Categories
-- 
+- A user can see all the categories here => '/categories'
+  * Since there are currently no categories in the database, let's create one/two first using the Rails console.
+- A user can see the details of a given category and its name here => '/categories/42'
+- A user can create a new category here => 'categories/new'
+  * We prefer to use Simple Form in our Rails application, so we need to install it first.
+- Create a new category 
