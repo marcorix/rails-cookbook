@@ -50,8 +50,13 @@
   * We prefer to use Simple Form in our Rails application, so we need to install it first.
 - Create a new category
 
-# STEP 9 - Routing and Controller for Bookmarks
+# STEP 9 - Routing, Controller and Views for Bookmarks
 - A user can add a new recipe to an existing category creating a new bookmark (recipe/category pair)
   here => 'categories/42/bookmarks/new'
 - On the categories 'show' page, display all the associated recipes.
   * Hint: Take a look at the associations in the Category model.
+- A user can remove a recipe from a category (actually, delete a bookmark!)
+  Create a delete link for each recipe in the categories 'show' page like this: Beef Miso Ramen | Delete
+
+# STEP 10 - Make the App navigable
+- The user should be able to navigate through all the pages without using the browser's URL bar.
