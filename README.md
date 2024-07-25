@@ -36,3 +36,11 @@
 # STEP 6 - Seed file
 - Create at least 4 recipes in the seed.rb file
 - Run the seed file to populate the DB
+
+# STEP 7 - Routing and Controller for Categories
+- Create all the routes except 'Edit' and 'Update'
+- Check the routes in the terminal
+- Create a new controller using the terminal
+
+# STEP 8 - Views for Categories
+- 
