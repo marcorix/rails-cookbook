@@ -48,4 +48,10 @@
 - A user can see the details of a given category and its name here => '/categories/42'
 - A user can create a new category here => 'categories/new'
   * We prefer to use Simple Form in our Rails application, so we need to install it first.
-- Create a new category 
+- Create a new category
+
+# STEP 9 - Routing and Controller for Bookmarks
+- A user can add a new recipe to an existing category creating a new bookmark (recipe/category pair)
+  here => 'categories/42/bookmarks/new'
+- On the categories 'show' page, display all the associated recipes.
+  * Hint: Take a look at the associations in the Category model.
