@@ -59,4 +59,4 @@
   Create a delete link for each recipe in the categories 'show' page like this: Beef Miso Ramen | Delete
 
 # STEP 10 - Make the App navigable
-- The user should be able to navigate through all the pages without using the browser's URL bar.
+- A user should be able to navigate through all the pages without needing to use the browser's URL bar.

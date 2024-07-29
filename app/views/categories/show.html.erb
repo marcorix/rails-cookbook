@@ -1,6 +1,9 @@
 <h1><%= @category.name %></h1>
+
 <ul>
   <% @category.bookmarks.each do |bookmark| %>
     <li><%= bookmark.recipe.name %> | <%= link_to 'Delete', bookmark_path(bookmark), data: {turbo_method: :delete} %></li>
   <% end %>
 </ul>
+<hr>
+<%= link_to 'Back to list', categories_path %>
