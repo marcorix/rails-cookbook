@@ -72,3 +72,7 @@
 - make a sketch on paper ( or excalidraw) of the html structure for the navbar and the banner
 - Create the HTML & the CSS
 - Refactor the navibar as a partial and render it on every page
+
+## STEP 3 - List of Categories (index)
+- make a sketch on paper ( or excalidraw) of the html structure for list of categories
+- Create the HTML & the CSS. * Use the LeWagon UI Kit

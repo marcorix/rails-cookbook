@@ -1,0 +1,25 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.card-category {
+  background-color: #382726;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+
+  &:first-child {
+    text-align: center;
+  }
+}
