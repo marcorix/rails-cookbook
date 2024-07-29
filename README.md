@@ -67,3 +67,8 @@
 # DAY 2 - FRONT-END 🎨
 
 ## STEP 1 - Setup Rails App for Front-end
+
+## STEP 2 - Navbar & Banner
+- make a sketch on paper ( or excalidraw) of the html structure for the navbar and the banner
+- Create the HTML & the CSS
+- Refactor the navibar as a partial and render it on every page
