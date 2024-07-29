@@ -66,4 +66,4 @@
 
 # DAY 2 - FRONT-END 🎨
 
-## STEP 1 - Make the App navigable
+## STEP 1 - Setup Rails App for Front-end
