@@ -1,4 +1,5 @@
 puts "Cleaning the DB"
+Bookmark.destroy_all
 Recipe.destroy_all
 Category.destroy_all
 
@@ -15,7 +16,7 @@ Recipe.create!(
   name: "Green Goddess Salad",
   description: "Combine spinach, parsley, basil,chives, tarragon, shallot, garlic,anchovy paste, and lime juicein a high-powered blender;blend and slowly",
   image_url: "https://www.allrecipes.com/thmb/M9vZZBM1RLwFrisYyiXYyFlgv_0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Green_Goddess_Dressing_4x3-STEP_060-9f2282f3c8a745508e5da1c2777a51c6.jpg",
-  rating: 4.0
+  rating: 3.8
 )
 
 Recipe.create!(

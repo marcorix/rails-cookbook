@@ -1,11 +1,11 @@
 .banner {
-  background-image: asset-url('banner.jpg');
   height: 400px;
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 
   h1, h2 {
     color: white;

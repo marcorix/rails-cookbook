@@ -69,10 +69,14 @@
 ## STEP 1 - Setup Rails App for Front-end
 
 ## STEP 2 - Navbar & Banner
-- make a sketch on paper ( or excalidraw) of the html structure for the navbar and the banner
+- Make a sketch on paper ( or excalidraw) of the html structure for the navbar and the banner
 - Create the HTML & the CSS
-- Refactor the navibar as a partial and render it on every page
+- Refactor the navbar as a partial and render it on every page
 
 ## STEP 3 - List of Categories (index)
-- make a sketch on paper ( or excalidraw) of the html structure for list of categories
+- Make a sketch on paper ( or excalidraw) of the html structure for list of categories
 - Create the HTML & the CSS. * Use the LeWagon UI Kit
+
+## STEP 4 - Category's page (show)
+- Create the banner using the class .banner
+- Create the HTML & the CSS for the recipe cards. * Use the LeWagon UI Kit
