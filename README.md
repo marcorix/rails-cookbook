@@ -80,3 +80,6 @@
 ## STEP 4 - Category's page (show)
 - Create the banner using the class .banner
 - Create the HTML & the CSS for the recipe cards. * Use the LeWagon UI Kit
+
+## STEP 5 - New Category's page & New Bookmark's page (new)
+- Create a .form-new CSS class to style the form elements on both 'New' pages.

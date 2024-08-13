@@ -1,7 +1,9 @@
-<h1>Add a Recipe to this category</h1>
+<div class="form-new mt-5">
+  <h1>Add a Recipe to this category</h1>
 
-<%= simple_form_for [@category, @bookmark] do |f| %>
-  <%= f.association :recipe %>
-  <%= f.input :comment%>
-  <%= f.button :submit %>
-<% end %>
+  <%= simple_form_for [@category, @bookmark] do |f| %>
+    <%= f.association :recipe %>
+    <%= f.input :comment%>
+    <%= f.button :submit, 'Add Recipe', class: 'btn btn-info' %>
+  <% end %>
+</div>
