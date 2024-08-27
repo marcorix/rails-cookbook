@@ -84,9 +84,16 @@
 ## STEP 5 - New Category's page & New Bookmark's page (forms)
 - Create a .form-new CSS class to style the form elements on both 'New' pages.
 
+
 # DAY 3 - IMAGE UPLOAD & API 🛠
 
 ## STEP 1 - Cloudinary &  Active Storage
 - Follow the setup instruction provided in the Hosting & Image Upload lecture.
 - Create a new category uploading an image, then check if the image was attached correctly
 - Use the uploaded image as the category card background
+
+## STEP 2.1 - Use a Free Recipe API to populate the DB (get recipes filtered by a category)
+- Choose 4 main categories from this list ("Breakfast", "Pasta", "Seafood", "Dessert", "Chicken", "Pork", "Vegetarian", "Beef"). In the seed.rb file for each chosen category make an API call (with open-uri and json ruby libs) using this endpoint: https://www.themealdb.com/api/json/v1/1/filter.php?c=YOUR-CATEGORY. The API will return a list of recipes. For each recipe, print its ID in the terminal.
+
+## STEP 2.2 - Use a Free Recipe API to populate the DB (create recipe instances)
+- Define a method #recipe_builder with a parameter id.The method should make a new API call using this end point: https://www.themealdb.com/api/json/v1/1/lookup.php?i=ID. Create a new recipe instance using the data from the response. Call the #recipe_builder method, passing the recipe ID you were printing in the terminal as the argument.
