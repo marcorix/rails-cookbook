@@ -69,7 +69,7 @@
 ## STEP 1 - Setup Rails App for Front-end
 
 ## STEP 2 - Navbar & Banner
-- Make a sketch on paper ( or excalidraw) of the html structure for the navbar and the banner
+- Make a sketch on paper (or excalidraw) of the html structure for the navbar and the banner
 - Create the HTML & the CSS
 - Refactor the navbar as a partial and render it on every page
 
@@ -83,3 +83,10 @@
 
 ## STEP 5 - New Category's page & New Bookmark's page (forms)
 - Create a .form-new CSS class to style the form elements on both 'New' pages.
+
+# DAY 3 - IMAGE UPLOAD & API 🛠
+
+## STEP 1 - Cloudinary &  Active Storage
+- Follow the setup instruction provided in the Hosting & Image Upload lecture.
+- Create a new category uploading an image, then check if the image was attached correctly
+- Use the uploaded image as the category card background

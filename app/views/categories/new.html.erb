@@ -4,6 +4,7 @@
   <%= simple_form_for @category do |f| %>
     <%= f.input :name %>
     <%= f.input :comment %>
+    <%= f.input :photo, as: :file %>
     <%= f.button :submit, class: 'btn btn-info' %>
   <% end %>
 </div>
