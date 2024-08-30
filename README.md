@@ -90,7 +90,7 @@
 ## STEP 1 - Cloudinary &  Active Storage
 - Follow the setup instruction provided in the Hosting & Image Upload lecture.
 - Create a new category uploading an image, then check if the image was attached correctly
-- Use the uploaded image as the category card background
+- Use the uploaded image as the category card and category's page banner background
 
 ## STEP 2.1 - Use a Free Recipe API to populate the DB (get recipes filtered by a category)
 - Choose 4 main categories from this list ("Breakfast", "Pasta", "Seafood", "Dessert", "Chicken", "Pork", "Vegetarian", "Beef"). In the seed.rb file for each chosen category make an API call (with open-uri and json ruby libs) using this endpoint: https://www.themealdb.com/api/json/v1/1/filter.php?c=YOUR-CATEGORY. The API will return a list of recipes. For each recipe, print its ID in the terminal.
