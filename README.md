@@ -19,14 +19,7 @@
   A bookmark adds a recipe to a category (e.g. Spaghetti Carbonara has been added to the “Italian” category). So each bookmark references a recipe and a category, with a comment. The comment field is for the user to add a little note on the bookmark (e.g. "This is a traditional Roman recipe").
 - Run the migrations to create the tables in the database.
 
-## STEP 4 - Models Validations
-- A recipe must have a unique name and an overview.
-- The rating of a recipe must be a value between 0 and 5
-- A category must have a unique name.
-- A bookmark must be linked to a recipe and a category, and the [recipe, category] pairings should be unique.
-- The comment of a bookmark cannot be shorter than 6 characters.
-
-## STEP 5 - Models Associations
+## STEP 4 - Models Associations
 - A category has many bookmarks
 - A category has many recipes through bookmarks
 - A recipe has many bookmarks
@@ -34,6 +27,13 @@
 - A bookmark belongs to a category
 - When you delete a category, you should delete all associated bookmarks
   (but not the recipes as they can be referenced in other categories).
+
+## STEP 5 - Models Validations
+- A recipe must have a unique name and an overview.
+- The rating of a recipe must be a value between 0 and 5
+- A category must have a unique name.
+- A bookmark must be linked to a recipe and a category, and the [recipe, category] pairings should be unique.
+- The comment of a bookmark cannot be shorter than 6 characters.
 
 ## STEP 6 - Seed file
 - Create at least 4 recipes in the seed.rb file
@@ -50,7 +50,6 @@
 - A user can see the details of a given category and its name here => '/categories/42'
 - A user can create a new category here => 'categories/new'
   * We prefer to use Simple Form in our Rails application, so we need to install it first.
-- Create a new category
 
 ## STEP 9 - Routing, Controller and Views for Bookmarks
 - A user can add a new recipe to an existing category creating a new bookmark (recipe/category pair)
@@ -58,8 +57,8 @@
 - On the categories 'show' page, display all the associated recipes.
   * Hint: Take a look at the associations in the Category model.
 - A user can remove a recipe from a category (actually, delete a bookmark!)
-  Create a delete link for each recipe in the categories 'show' page like this: Beef Miso Ramen | Delete
-
+  Create a delete link for each recipe in the categories 'show' page
+  
 ## STEP 10 - Make the App navigable
 - A user should be able to navigate through all the pages without needing to use the browser's URL bar.
 
@@ -74,7 +73,7 @@
 - Refactor the navbar as a partial and render it on every page
 
 ## STEP 3 - List of Categories (index)
-- Make a sketch on paper ( or excalidraw) of the html structure for list of categories
+- Make a sketch on paper (or excalidraw) of the html structure for list of categories
 - Create the HTML & the CSS. * Use the LeWagon UI Kit
 
 ## STEP 4 - Category's page (show)

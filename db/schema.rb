@@ -54,7 +54,6 @@ ActiveRecord::Schema[7.1].define(version: 2024_08_27_102233) do
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
-    t.text "comment"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
