@@ -58,7 +58,7 @@
   * Hint: Take a look at the associations in the Category model.
 - A user can remove a recipe from a category (actually, delete a bookmark!)
   Create a delete link for each recipe in the categories 'show' page
-  
+
 ## STEP 10 - Make the App navigable
 - A user should be able to navigate through all the pages without needing to use the browser's URL bar.
 

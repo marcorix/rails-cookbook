@@ -1,6 +1,6 @@
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= cl_image_path @category.photo.key %>')">
   <div>
-    <h1><%= @category.name  %></h1>
+    <h1><%= @category.name.capitalize  %></h1>
   </div>
 </div>
 .
@@ -22,7 +22,7 @@
 
         <div class="card-trip-description">
           <h2><%= bookmark.recipe.name %></h2>
-          <p><%= bookmark.recipe.description %></p>
+          <p><%= bookmark.recipe.description.truncate(300) %></p>
         </div>
 
         <div class="card-trip-infos">

@@ -35,6 +35,7 @@
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   position: relative;
+  border-radius: 8px;
 }
 
 .card-trip > img {
@@ -73,6 +74,7 @@
 
 .card-trip-description {
   padding: 16px;
+  height: 150px;
 }
 
 .btn-delete {
